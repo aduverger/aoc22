@@ -1,8 +1,3 @@
-import numpy as np
-from itertools import product, permutations
-from collections import defaultdict
-
-
 def is_overlaped_p1(range_a: tuple, range_b: tuple) -> bool:
     x_a, y_a = range_a
     x_b, y_b = range_b
